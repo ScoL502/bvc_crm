@@ -11,10 +11,10 @@
     <title>Dashboard Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="[_ROOT_DIR]/public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./public/css/dashboard.css" rel="stylesheet">
+    <link href="[_ROOT_DIR]/public/css/dashboard.css" rel="stylesheet">
   </head>
 
   <body>
@@ -65,8 +65,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="public/bootstrap/js/bootstrap.min.js"></script>
-    <script src="public/bootstrap//js/docs.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="[_ROOT_DIR]/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="[_ROOT_DIR]/public/bootstrap/js/docs.min.js"></script>
   </body>
 </html>

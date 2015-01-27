@@ -15,7 +15,9 @@
     $this->model_view = str_replace($name,$value,$this->model_view);
    }
    public function render() {
+    $dir = ROOT_DIR;
     $this->main_view = str_replace('[_content]', $this->model_view, $this->main_view);
+    $this->main_view = str_replace('[_ROOT_DIR]', $dir, $this->main_view);
     echo $this->main_view;
    }
   }

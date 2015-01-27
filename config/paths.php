@@ -1,3 +1,3 @@
 <?php
-define('ROOT_DIR', $_SERVER['DOCUMENT_ROOT'].dirname($_SERVER['PHP_SELF']));
+define('ROOT_DIR',"http://localhost:8888/bvc_crm");
 ?>
