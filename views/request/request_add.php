@@ -7,7 +7,7 @@
   <body>
 
 <h1 class="page-header">Новая заявка</h1>
-          <form class="request_add">
+          <form class='request_add' action='add' method='post'>
 
             <div class="row">
 
