@@ -32,43 +32,43 @@
 
               <div class="col-xs-7">
                 <label class="">Маршрут:</label>
-                <input type="text" class="form-control" placeholder="Адрес загрузки">
+                <input type="text" class="form-control" name='request[shipper_adress]' placeholder="Адрес загрузки">
               </div>
               <div class="col-xs-5">
                 <label class="">Контактная информация:</label>
-                <input type="text" class="form-control" placeholder="Грузоотправитель">
+                <input type="text" class="form-control" name='request[shipper]' placeholder="Грузоотправитель">
               </div>
             </div>
 
             <div class="row">
             
               <div class="col-xs-7">
-                <input type="text" class="form-control" placeholder="Адрес разгрузки">
+                <input type="text" class="form-control" name='request[consignee_adress]' placeholder="Адрес разгрузки">
               </div>
               <div class="col-xs-5">
-                <input type="text" class="form-control" placeholder="Грузополучатель">
+                <input type="text" class="form-control" name='request[consignee]' placeholder="Грузополучатель">
               </div>
             </div>
 
             <div class="row">
               <div class="col-xs-4">
                 <label class="">Наименование груза:</label>
-                <input type="text" class="form-control" placeholder="Наименование груза">
+                <input type="text" class="form-control" name='request[cargo]' placeholder="Наименование груза">
               </div>
               <div class="col-xs-4">
                 <label class="">Вес:</label>
-                <input type="text" class="form-control" placeholder="Вес">
+                <input type="text" class="form-control" name='request[weight]' placeholder="Вес">
               </div>
               <div class="col-xs-4">
                 <label class="">Объем:</label>
-                <input type="text" class="form-control" placeholder="Объем">
+                <input type="text" class="form-control" name='request[volume]' placeholder="Объем">
               </div>
             </div>
 
               <div class="row"> 
               <div class="col-xs-7">
                 <label class="">Исполнитель:</label>
-                <select class="form-control">
+                <select class="form-control" name='request[perfomer]'>
                   <option>1</option>
                   <option>2</option>
                 </select>
@@ -76,23 +76,23 @@
 
               <div class="col-xs-5">
                 <label class="">ФИО водителя:</label>
-                <input type="text" class="form-control" placeholder="Водитель">
+                <input type="text" class="form-control" name='request[driver]' placeholder="Водитель">
               </div>
              </div>
 
             <div class="row">  
               <div class="col-xs-7">
                 <label class="">Паспорт:</label>
-                <input type="text" class="form-control" placeholder="Паспорт">
+                <input type="text" class="form-control" name='request[driver_passport]' placeholder="Паспорт">
               </div>
               <div class="col-xs-5">
                 <label class="">Марка и гос. номер т/с:</label>
-                <input type="text" class="form-control" placeholder="">
+                <input type="text" class="form-control" name='request[driver_ts]' placeholder="">
               </div>
             </div>
 
             <label class="">Примечание:</label>
-            <textarea class="form-control"></textarea>
+            <textarea class="form-control" name='request[note]'></textarea>
 
             <button class="btn btn-lg btn-success btn-block">Создать</button>
           </form>
