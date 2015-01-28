@@ -2,6 +2,7 @@
   class request extends Controller {
    	public function __construct() {
     	parent::__construct();
+      $this->select = new select();
   	}
 
   	public function index() {
@@ -11,6 +12,8 @@
   	}
     public function add() {
       $this->view->load('request/request_add.php');
+      $contragents = $this->select->create('contragents','0','form-control');
+      $this->view->set('[_contragent]',$contragents);
       $this->view->render();
     }
   }

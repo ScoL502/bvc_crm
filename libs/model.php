@@ -1,7 +1,11 @@
 <?php
   class Model {
+
+  public $db;
+
    public function __construct() {
-    // $this->database = new Database();
+    $db = Database::getDB();
    }
+
   }
 ?>

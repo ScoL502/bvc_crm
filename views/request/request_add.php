@@ -13,14 +13,7 @@
 
               <div class="col-xs-7">
                 <label class="">Клиент:</label>
-                  <select class="form-control" placeholder="Выберите клиента">
-                  <option>Выберите клиента</option>
-                   <option>Газель 1,5т.</option>
-                   <option>Бычок 3т.</option>
-                   <option>Зил 5т.</option>
-                   <option>Камаз 10т.</option>
-                   <option>Фура 20т.</option>
-                  </select>
+                  [_contragent]
               </div>
               <div class="col-xs-5">
                 <label class="">Тип т/с:</label>
