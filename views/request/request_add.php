@@ -17,12 +17,12 @@
               <div class="col-xs-5">
                 <label class="">Тип т/с:</label>
                   <select name='request[am]'class="form-control">
-                   <option>Выберите тип т/c</option>
-                   <option>Газель 1,5т.</option>
-                   <option>Бычок 3т.</option>
-                   <option>Зил 5т.</option>
-                   <option>Камаз 10т.</option>
-                   <option>Фура 20т.</option>
+                   <option value="0">Выберите тип т/c</option>
+                   <option value="1">Газель 1,5т.</option>
+                   <option value="2">Бычок 3т.</option>
+                   <option value="3">Зил 5т.</option>
+                   <option value="4">Камаз 10т.</option>
+                   <option value="5">Фура 20т.</option>
                   </select>
               </div>
             </div>
