@@ -5,8 +5,7 @@
   </head>
 
   <body>
-
-<h1 class="page-header">Новая заявка</h1>
+    <h1 class="page-header">Новая заявка</h1>
           <form class='request_add' action='add' method='post'>
 
             <div class="row">
@@ -17,7 +16,7 @@
               </div>
               <div class="col-xs-5">
                 <label class="">Тип т/с:</label>
-                  <select class="form-control">
+                  <select name='request[am]'class="form-control">
                    <option>Выберите тип т/c</option>
                    <option>Газель 1,5т.</option>
                    <option>Бычок 3т.</option>
